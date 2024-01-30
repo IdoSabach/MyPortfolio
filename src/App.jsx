@@ -19,7 +19,8 @@ function App() {
   return (
     <>
       <main id="app">
-        <Aside onSelected={(id) => handleClick(id)} />
+        <Aside onSelected={handleClick} />
+        {/* <Aside onSelected={(text) => handleClick(text)} /> */}
         <Main title={currTitle} main={currMain}/>
       </main>
     </>

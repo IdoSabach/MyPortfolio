@@ -12,7 +12,7 @@ export default function Aside({onSelected}){
     <>
       <section id="aside">
         <TopAside />
-        <MainAside onSelected={(id) => print(id)} />
+        <MainAside onSelected={(text) => print(text)} />
         <Footer />
       </section>
     </>
